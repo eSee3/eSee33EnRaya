@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>3 EN RAYA</title>
+    <script type=text/javascript src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- Sección 1 -->
+
+<section id="seccion-1" >
+    <h1 id="Titulo1">Tres en raya</h1>
+    <P>Juego tres en raya creado por <b>Pablo Nevado </b>, alumno de ASIR. <br> <br>
+    Es una variante que se juega en un tablero con nueve puntos conectados vertical y horizontalmente, además de dos grandes diagonales. Cada jugador consta de tres piezas. Por turnos, cada uno coloca sus piezas, cuando todas están en el tablero, empiezan a moverse una intersección por turno. El primero que logra hacer una fila con sus tres piezas, gana.
+    </P>
+</section>
+
+
+<!-- Sección 2 -->
+<section id="seccion-2">
+    <h2>Reglas y Normas</h2>
+    
+        <table>
+            <tr>
+                <td>
+                    Hay dos jugadores; uno juega con el símbolo X y el otro juega con el símbolo 0.
+                </td>
+
+                <td>
+                    Los símbolos solamente pueden estar en las celdas vacías, tiene 9 casillas.
+                </td>
+
+                <td>
+                    El objetivo del juego es colocar 3 símbolos propios en una columna, fila o diagonal. 
+                </td>
+
+                <td>
+                    Si el tablero esta completo  pero ninguno de los jugadores ganó, acaba en empate.
+                </td>
+            </tr>
+        </table>
+            
+
+</section>
+
+<!-- Sección 3 -->
+
+<section id="seccion-3">
+    
+    
+    <body>
+
+        <h1 id="Titulo2">  ¡ A JUGAR ! </h1>
+       
+        <div style="padding-bottom: 5px;">
+            
+            <input id="uno" onclick="xo('#uno')" type="button" value="">
+            <input id="dos" onclick="xo('#dos')" type="button">
+            <input id="tres" onclick="xo('#tres')" type="button">
+    
+        </div>
+    
+        <div style="padding-bottom: 5px;">
+    
+            <input id="cuatro" onclick="xo('#cuatro')" type="button">
+            <input id="cinco" onclick="xo('#cinco')" type="button">
+            <input id="seis" onclick="xo('#seis')" type="button">
+            
+        </div>
+    
+        <div>        
+          
+            <input id="siete" onclick="xo('#siete')" type="button">
+            <input id="ocho" onclick="xo('#ocho')" type="button">
+            <input id="nueve" onclick="xo('#nueve')" type="button">
+    
+        </div>
+        
+        <input id="refresh" type="button" value="Volver a jugar"  onclick="location.reload()"/>
+        
+    </body>
+</section>
+
+<footer>
+
+    <p class="foot">Trabajo Realizado por Pablo Nevado Pascual alumno de ASIR a dia 18 de Enero de 2021. &copy</p>
+
+</footer>
+
+</html>

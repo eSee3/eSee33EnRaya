@@ -1,0 +1,148 @@
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #313131;
+  text-align: center;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  color: white;
+  padding-left: 587px;
+  padding-right: 585px;
+  font-size: 20px;
+}
+
+
+
+/*Botones*/
+input:hover{
+    
+    border:3px solid#5D43BB;
+    border-radius: 5px;
+    width: 125px;
+    height: 125px;
+    background-color: #d4d4d4;
+    text-align: center;
+  }
+
+input:hover#refresh{
+    
+    border:3px solid  #5D43BB;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+    background-color: #d4d4d4;
+    text-align: center;
+  }
+  
+input{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    width: 125px;
+    height: 125px;
+    vertical-align: top;
+    font-size: 50px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #ebebeb;
+}
+
+input#refresh{
+
+  font-family: 'Bebas Neue', cursive;
+  width: 170px;
+  height: 50px;
+  margin-top: 50px;
+  font-size: 25px;
+  background-color: white;
+  border-color: #ebebeb;
+}
+
+/*html*/
+html {
+  scroll-behavior: smooth;
+  margin: auto;
+}
+
+/*Normas*/
+
+td{
+  
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  color: white;
+  padding-left: 587px;
+  padding-right: 585px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  margin: 200px;
+  padding: 100px;
+  width: 2000px;
+}
+
+
+h2 {
+  font-size: 90px;
+  font-weight: 850;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+table{
+  padding-bottom: 50px;
+}
+
+/*Footer*/
+footer p.foot{
+  color: #666464;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+
+/* Secciones */
+
+section {
+  
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+}
+
+/*sección 1*/
+section:nth-of-type(1) {
+  background-image: url(fondo12.jpg);
+}
+
+/*sección 2*/
+section:nth-of-type(2) {
+    background-image: url(fondo20.jpg);
+}
+
+/*sección 3*/
+section:nth-of-type(3) {
+  background-color: #fa4661;
+}
